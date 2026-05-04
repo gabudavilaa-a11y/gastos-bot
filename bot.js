@@ -2,8 +2,6 @@
 //  BOT DE CONTROLE DE GASTOS — TELEGRAM
 //  Dependências: npm install node-telegram-bot-api @supabase/supabase-js dotenv
 // ============================================================
-
-require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const { createClient } = require('@supabase/supabase-js');
 
